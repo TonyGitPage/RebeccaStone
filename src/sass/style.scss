@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Goblin One';
+    font-family: 'Poppins';
+}
+
+.header {
+    font-weight: 400;
+}
+
+@import 'base/variables';
+@import 'blocks/container';
+@import 'blocks/title';
+@import 'blocks/promo';
+@import 'blocks/about';
+@import 'blocks/services';
+@import 'blocks/today';
+@import 'blocks/gallery';
+@import 'blocks/clients';
+@import 'blocks/contacts';
+@import 'blocks/media';

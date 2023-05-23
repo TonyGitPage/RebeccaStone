@@ -1,0 +1,29 @@
+.services {
+    height: 828px;
+    padding: 88px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        width: 355px;
+        img {
+            width: 355px;
+            height: 460px;
+            object-fit: cover;
+        }
+    }
+    &__text {
+        margin-top: 25px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    &__price {
+        margin-top: 42px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.215em;
+    }
+}
