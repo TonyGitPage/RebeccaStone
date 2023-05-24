@@ -11,6 +11,11 @@
     font-weight: 400;
 }
 
+.hamburger {
+    display: none;
+    z-index: 10;
+}
+
 @import 'base/variables';
 @import 'blocks/container';
 @import 'blocks/title';

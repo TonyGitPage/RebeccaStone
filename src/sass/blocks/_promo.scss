@@ -4,6 +4,11 @@
     width: 100%;
     height: 116px;
     background-color: $main-color;
+    &__menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
     &__social {
         width: 277px;
         margin-left: 77px;
@@ -40,5 +45,8 @@
             font-weight: 400;
             font-size: 64px;
         }
+    }
+    &__header {
+        display: none;
     }
 }
